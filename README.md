@@ -75,7 +75,7 @@ The algorithm follows a structured, image-based approach to detect vertical move
    Results are saved with annotations for easy review.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/b9adc71b-e551-4497-ba4c-34a2c210bf21" alt="OCR Output Sample" width="700"/>
+  <img src="https://github.com/user-attachments/assets/b9adc71b-e551-4497-ba4c-34a2c210bf21" alt="OCR Output Sample" width="500"/>
   <p><em>This image shows how the algorithm works.</em></p>
 </div>
 
