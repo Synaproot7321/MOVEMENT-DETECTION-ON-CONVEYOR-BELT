@@ -1,10 +1,14 @@
 # 🏭 MOVEMENT-DETECTION-ON-CONVEYOR-BELT
 
-*NOTE: During my experience in the mining sector, I participated in the development of a visual inspection system using machine vision to detect movement in conveyor belts. Out of respect for confidentiality, no images or technical details of the actual system are shown. The documentation presented here is a simulated version developed by me for demonstration purposes.*
+<p align="justify">
+  <em>NOTE: During my experience in the mining sector, I participated in the development of a visual inspection system using machine vision to detect movement in conveyor belts. Out of respect for confidentiality, no images or technical details of the actual system are shown. The documentation presented here is a simulated version developed by me for demonstration purposes.</em>
+</p>
 
+<p align="justify">
 This project implements an image processing pipeline to **detect vertical motion** in conveyor belt systems using a video feed or a sequence of images. The primary goal is to determine whether a conveyor belt is **moving in the correct vertical direction** (upward or downward), which is especially useful in mining, logistics, and industrial automation scenarios where belts must operate in predefined patterns.
 
 Unlike traditional monitoring systems that require physical sensors (encoders, proximity sensors, etc.), this solution is **completely vision-based** and relies only on a standard video camera and real-time frame analysis.
+</p>
 
 ---
 
@@ -80,4 +84,24 @@ The algorithm follows a structured, image-based approach to detect vertical move
 </div>
 
 > *The algorithm works without physical sensors and is ideal for low-cost monitoring using just a camera.*
+
+---
+
+## 📊 Impact
+
+Implementing this movement detection system offers several key benefits in industrial environments:
+
+- ⚙️ **Improved Process Control**  
+  Allows real-time verification of conveyor belt movement to detect unexpected stops or jams.
+
+- ⏱️ **Reduced Downtime**  
+  Early detection of movement issues helps prevent prolonged interruptions and costly delays.
+
+- 🧯 **Enhanced Safety**  
+  Reduces the need for manual inspections in high-risk areas by providing continuous visual monitoring.
+
+- 💰 **Low-Cost Integration**  
+  The system uses only camera input and lightweight algorithms, making it scalable and easy to implement without modifying existing infrastructure.
+
+> This tool supports more efficient operations by offering a simple and effective way to ensure materials are flowing as expected in automated production lines.
 
